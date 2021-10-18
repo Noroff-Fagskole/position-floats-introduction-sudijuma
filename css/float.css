@@ -1,0 +1,23 @@
+.float {
+    background-color: antiquewhite;
+    border-bottom: 1px solid #fff;
+    padding: 30px;
+    margin: 10px;
+}
+
+.bg-blue{
+    background-color: azure;
+}
+
+.floated-right {
+    float: right;
+}
+
+.floated-left {
+    float: left;
+}
+
+/* help css */
+.clear {
+    clear: right;
+}

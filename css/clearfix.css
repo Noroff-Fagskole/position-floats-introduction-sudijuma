@@ -1,0 +1,16 @@
+
+.float {
+    margin: 10px;
+    float: right;
+    height: 150px;
+}
+
+div {
+    border: 1px solid red;
+}
+
+.clearfix::after {
+    clear: both; /* right left both */
+    content: ' '; /* inserts content into html file*/
+    display: table; /* set display type.*/
+}
